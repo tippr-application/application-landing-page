@@ -1,13 +1,21 @@
-.side-rails {
+.side-rails() {
     max-width: 95%;
     margin: 0 auto;
-    border: 1px dotted black;
 }
+
 .custom-btn(@fontcolor; @backgroundcolor){
     color: @fontcolor;
     background-color: @backgroundcolor;
     cursor: pointer;
     padding: .7rem 1.3rem;
     border-radius: .35rem;
+    text-transform: uppercase;
+    font-family: @rway;
+    font-weight: bold;
 }
 
+.header-imp() {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}

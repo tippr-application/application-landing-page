@@ -134,22 +134,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.side-rails {
-  max-width: 95%;
-  margin: 0 auto;
-  border: 1px dotted black;
-}
 .header {
   background-color: #43D9B8;
-  border: 1px solid red;
   height: 63px;
 }
 .middle {
   background-color: white;
-  border: 1px dashed green;
-}
-footer {
-  background-color: #F1F1F1;
 }
 .middle-img {
   max-width: 500px;
@@ -157,55 +147,75 @@ footer {
 .header-container {
   max-width: 95%;
   margin: 0 auto;
-  border: 1px dotted black;
 }
 .cta-container {
   max-width: 95%;
   margin: 0 auto;
-  border: 1px dotted black;
 }
 .footer-container {
   max-width: 95%;
   margin: 0 auto;
-  border: 1px dotted black;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
 }
-button {
-  color: white;
+.fa-bars {
+  font-size: 1.3rem;
+}
+.cta-main h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin: 1rem 0 0.2rem 0;
+}
+.cta-main h2 {
+  font-family: "Raleway", sans-serif;
+  margin: 0.2rem 0;
+}
+.cta-main p {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 1rem 0;
+}
+.cta-main .give {
+  margin: 0.6rem 0 1rem 0;
+  color: black;
   background-color: #43D9B8;
   cursor: pointer;
   padding: 0.7rem 1.3rem;
   border-radius: 0.35rem;
-}
-.cta-main h1 {
+  text-transform: uppercase;
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
-.cta-main h2 {
+.cta-main .receive {
+  margin: 0.6rem 0 1rem 0;
+  color: black;
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.35rem;
+  text-transform: uppercase;
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
-.cta-main p {
-  font-family: "Source Sans Pro", sans-serif;
+footer {
+  height: 10rem;
 }
 footer p {
   font-family: "Source Sans Pro", sans-serif;
 }
 .dropdown {
-  border: 1px dashed black;
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
-}
-.dropdown .dropdown-button {
-  border: 1px dashed black;
-}
-.dropdown .dropdown-content {
-  border: 1px dashed red;
-}
-.dropdown .dropdown-content .dropdown-link {
-  border: 1px dashed blue;
+  padding: 1.2rem 0;
 }
 .dropdown .dropdown-hidden {
   display: none;
