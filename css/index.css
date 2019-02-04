@@ -134,8 +134,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.side-rails {
+  max-width: 95%;
+  margin: 0 auto;
+  border: 1px dotted black;
+}
 .header {
-  background-color: #F6F9FC;
+  background-color: #43D9B8;
   border: 1px solid red;
   height: 63px;
 }
@@ -144,22 +149,32 @@ table {
   border: 1px dashed green;
 }
 footer {
-  background-color: #F6F9FC;
+  background-color: #F1F1F1;
+}
+.middle-img {
+  max-width: 500px;
 }
 .header-container {
   max-width: 95%;
-  border: 1px dotted black;
   margin: 0 auto;
+  border: 1px dotted black;
 }
 .cta-container {
   max-width: 95%;
-  border: 1px dotted black;
   margin: 0 auto;
+  border: 1px dotted black;
 }
 .footer-container {
   max-width: 95%;
-  border: 1px dotted black;
   margin: 0 auto;
+  border: 1px dotted black;
+}
+button {
+  color: white;
+  background-color: #43D9B8;
+  cursor: pointer;
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.35rem;
 }
 .dropdown {
   border: 1px dashed black;
