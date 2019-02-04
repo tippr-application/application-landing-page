@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  font-size: 62.5%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -131,9 +134,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.top {
+.header {
   background-color: #F6F9FC;
   border: 1px solid red;
+  height: 63px;
 }
 .middle {
   background-color: white;
@@ -142,7 +146,17 @@ table {
 footer {
   background-color: #F6F9FC;
 }
-.container {
+.header-container {
+  max-width: 95%;
+  border: 1px dotted black;
+  margin: 0 auto;
+}
+.cta-container {
+  max-width: 95%;
+  border: 1px dotted black;
+  margin: 0 auto;
+}
+.footer-container {
   max-width: 95%;
   border: 1px dotted black;
   margin: 0 auto;
@@ -150,8 +164,8 @@ footer {
 .dropdown {
   border: 1px dashed black;
   display: flex;
-  justify-content: flex-end;
-  margin: 10px 0;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 .dropdown .dropdown-button {
   border: 1px dashed black;
@@ -164,4 +178,7 @@ footer {
 }
 .dropdown .dropdown-hidden {
   display: none;
+}
+.logo {
+  text-align: center;
 }
