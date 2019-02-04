@@ -8,7 +8,7 @@ Stretch: Implement a payment feature that actually allows money exchange with a 
 // Marketing/Splash Page Considerations
 
 Github
-* [] Repo created under team organization
+* [x] Repo created under team organization
 
 HTML/CSS
 * [] Framework or library is researched
