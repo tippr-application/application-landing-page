@@ -1,6 +1,14 @@
 .side-rails() {
-    max-width: 95%;
-    margin: 0 auto;
+    margin: 0 1rem;
+
+    @media @tablet {
+        margin: 0 1.2rem;
+    }
+
+    @media @desktop {
+        max-width: 920px;
+        margin: 0 auto;
+    }
 }
 
 .custom-btn(@fontcolor; @backgroundcolor){
