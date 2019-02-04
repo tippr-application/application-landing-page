@@ -169,12 +169,28 @@ footer {
   margin: 0 auto;
   border: 1px dotted black;
 }
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
 button {
   color: white;
   background-color: #43D9B8;
   cursor: pointer;
   padding: 0.7rem 1.3rem;
   border-radius: 0.35rem;
+}
+.cta-main h1 {
+  font-family: "Raleway", sans-serif;
+}
+.cta-main h2 {
+  font-family: "Raleway", sans-serif;
+}
+.cta-main p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+footer p {
+  font-family: "Source Sans Pro", sans-serif;
 }
 .dropdown {
   border: 1px dashed black;
