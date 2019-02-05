@@ -1,25 +1,88 @@
 .dropdown {
-    border: 1px dashed black;
     display: flex;
-    justify-content: flex-end;
-    margin: 10px 0;
+    justify-content: space-between;
+    padding: 1.2rem 0;
 
-    .dropdown-button {
-        border: 1px dashed black;
-    }
+    .nav {
+        display: flex;
+        width: 8rem;
+        justify-content: space-between;
+        align-items: center;
 
-    .dropdown-content {
-        border: 1px dashed red;
-        
-
-
-        .dropdown-link {
-            border: 1px dashed blue;
+        @media @desktop {
+            justify-content: space-between;
+            width: 20rem;
         }
 
+        a {
+            .de-link;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: @background-gray;
+        }
+
+        .nav-link {
+            display: none;
+            
+            @media @desktop {
+                display: block;
+                .de-link;
+                font-weight: bold;
+                font-size: 1.1rem;
+                text-transform: uppercase;
+                font-family: @rway;
+            }
+
+        }
+
+        .nav-link:hover {
+            color: @background-gray;
+        }
+
+        .fa-bars {
+            font-size: 1.3rem;
+            cursor: pointer;
+            
+            @media @desktop {
+                display: none;
+            }
+        }
+
+        .dropdown-content {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            right: 0.96rem;
+            top: 2rem;
+            display: none;
+
+            @media @desktop {
+                display: none;
+            }
+
+
+            .dropdown-link {
+                width: 7.5rem;
+                padding: 2rem 0;
+                text-align: center;
+                font-size: 1rem;
+                background: @background-gray;
+                .de-link;
+            }
+    
+        }
+        .dropdown-hidden {
+            display: none;
+        }
     }
 
-    .dropdown-hidden {
-        display: none;
+    .logo {
+        text-align: center;
     }
+
 }
+
+
+

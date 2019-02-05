@@ -1,0 +1,41 @@
+.middle-img {
+    display: flex;
+    justify-content: center;
+
+    @media @desktop {
+        order: 1;
+    }
+}
+
+.cta-main {
+    h1 {
+        font-family: @rway;
+        .header-imp;
+        margin: 1rem 0 .2rem 0;
+    }
+    h2 {
+        font-family: @rway;
+        margin: .2rem 0;
+    }
+    p {
+        font-family: @ssp;
+        margin: 1rem 0;
+        padding: 0 1.4rem 0 0;
+    }
+    .give {
+        .custom-btn(black; @mint);
+    }
+    
+    .receive {
+        .custom-btn(black; @white);
+    }
+    .banner {
+        text-align: center;
+        margin: 2rem 0;
+
+        @media @desktop {
+            text-align: left;
+            font-size: 1.5rem;
+        }
+    }
+}

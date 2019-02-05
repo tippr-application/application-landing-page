@@ -11,7 +11,7 @@ Github
 * [x] Repo created under team organization
 
 HTML/CSS
-* [] Framework or library is researched
+* [x] Framework or library is researched
 
 Responsiveness
 * [] No horizontal scrolling
