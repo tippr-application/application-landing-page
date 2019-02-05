@@ -203,7 +203,7 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 @media (min-width: 800px) {
   .footer-container {
@@ -299,6 +299,7 @@ table {
   font-family: "Source Sans Pro", sans-serif;
   margin: 1rem 0;
   padding: 0 1.4rem 0 0;
+  line-height: 1.5;
 }
 .cta-main .cta-content .content-container .give {
   color: black;
