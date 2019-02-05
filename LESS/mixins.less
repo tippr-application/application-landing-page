@@ -6,7 +6,7 @@
     }
 
     @media @desktop {
-        max-width: 920px;
+        max-width: 880px;
         margin: 0 auto;
     }
 }
@@ -20,10 +20,21 @@
     text-transform: uppercase;
     font-family: @rway;
     font-weight: bold;
+    margin: .6rem 0 1rem 0; 
+
+    &:hover {
+        box-shadow: .08rem .08rem gray;
+    }
 }
 
 .header-imp() {
     font-weight: bold;
     font-size: 1.3rem;
     text-transform: uppercase;
+}
+
+.de-link() {
+    text-decoration: none;
+    font-family: @rway;
+    color: @black;
 }
