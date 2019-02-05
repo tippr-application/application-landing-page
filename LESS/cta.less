@@ -4,38 +4,55 @@
 
     @media @desktop {
         order: 1;
+        width: 40%;
+        height: 30rem;
     }
 }
 
 .cta-main {
-    h1 {
+
+    .cta-content {
+
+        @media @desktop {
+            margin-top: 8rem;
+            display: flex;
+        }
+
+        .content-container {
+            h1 {
+                font-family: @rway;
+                .header-imp;
+                margin: 1rem 0 .2rem 0;
+            }
+            h2 {
+                font-family: @rway;
+                margin: .2rem 0;
+            }
+            p {
+                font-family: @ssp;
+                margin: 1rem 0;
+                padding: 0 1.4rem 0 0;
+            }
+            .give {
+                .custom-btn(black; @mint);
+            }
+            
+            .receive {
+                .custom-btn(black; @white);
+            }
+        }
+    }
+
+    .banner {
         font-family: @rway;
         .header-imp;
-        margin: 1rem 0 .2rem 0;
-    }
-    h2 {
-        font-family: @rway;
-        margin: .2rem 0;
-    }
-    p {
-        font-family: @ssp;
-        margin: 1rem 0;
-        padding: 0 1.4rem 0 0;
-    }
-    .give {
-        .custom-btn(black; @mint);
-    }
-    
-    .receive {
-        .custom-btn(black; @white);
-    }
-    .banner {
         text-align: center;
         margin: 2rem 0;
 
         @media @desktop {
+            margin-top: 5rem;
             text-align: left;
-            font-size: 1.5rem;
+            font-size: 1.9rem;
         }
     }
 }

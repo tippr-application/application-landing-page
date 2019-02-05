@@ -240,25 +240,33 @@ table {
 @media (min-width: 1000px) {
   .middle-img {
     order: 1;
+    width: 40%;
+    height: 30rem;
   }
 }
-.cta-main h1 {
+@media (min-width: 1000px) {
+  .cta-main .cta-content {
+    margin-top: 8rem;
+    display: flex;
+  }
+}
+.cta-main .cta-content .content-container h1 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 1.3rem;
   text-transform: uppercase;
   margin: 1rem 0 0.2rem 0;
 }
-.cta-main h2 {
+.cta-main .cta-content .content-container h2 {
   font-family: "Raleway", sans-serif;
   margin: 0.2rem 0;
 }
-.cta-main p {
+.cta-main .cta-content .content-container p {
   font-family: "Source Sans Pro", sans-serif;
   margin: 1rem 0;
   padding: 0 1.4rem 0 0;
 }
-.cta-main .give {
+.cta-main .cta-content .content-container .give {
   color: black;
   background-color: #43D9B8;
   cursor: pointer;
@@ -269,10 +277,10 @@ table {
   font-weight: bold;
   margin: 0.6rem 0 1rem 0;
 }
-.cta-main .give:hover {
+.cta-main .cta-content .content-container .give:hover {
   box-shadow: 0.08rem 0.08rem gray;
 }
-.cta-main .receive {
+.cta-main .cta-content .content-container .receive {
   color: black;
   background-color: #ffffff;
   cursor: pointer;
@@ -283,17 +291,22 @@ table {
   font-weight: bold;
   margin: 0.6rem 0 1rem 0;
 }
-.cta-main .receive:hover {
+.cta-main .cta-content .content-container .receive:hover {
   box-shadow: 0.08rem 0.08rem gray;
 }
 .cta-main .banner {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
   text-align: center;
   margin: 2rem 0;
 }
 @media (min-width: 1000px) {
   .cta-main .banner {
+    margin-top: 5rem;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 }
 footer {
