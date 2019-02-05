@@ -186,6 +186,7 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-top: 2rem;
 }
 @media (min-width: 800px) {
   .footer-container {
@@ -196,6 +197,16 @@ table {
   .footer-container {
     max-width: 880px;
     margin: 0 auto;
+  }
+}
+@media (min-width: 800px) {
+  .footer-container {
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 1000px) {
+  .footer-container {
+    margin-top: 4rem;
   }
 }
 .profiles-container {
@@ -314,7 +325,7 @@ table {
   }
 }
 .team-masthead .placeholder {
-  height: 20rem;
+  height: 15rem;
   border: 1px dotted black;
   margin-bottom: 2rem;
 }
@@ -378,9 +389,22 @@ table {
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 1000px) {
+  .testimonials-board {
+    align-items: flex-end;
+  }
+}
 .testimonials-board .testimonial {
   display: flex;
   padding: 2rem;
+  border: 1px dotted black;
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+}
+@media (min-width: 1000px) {
+  .testimonials-board .testimonial {
+    width: 60%;
+  }
 }
 .testimonials-board .testimonial .profile-placeholder {
   border-radius: 50rem;
@@ -400,12 +424,22 @@ table {
 footer {
   height: 1rem;
 }
+footer .apple {
+  width: 9rem;
+  margin: 1rem 0;
+}
+footer .nav-footer {
+  margin-top: 1rem;
+}
 footer .nav-footer a {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   color: #000000;
   font-size: 1rem;
   margin: 0 0.2rem 0 0;
+}
+footer .nav-footer a:hover {
+  color: #43D9B8;
 }
 footer p {
   margin-top: 0.5rem;
@@ -469,7 +503,6 @@ footer p {
   flex-direction: column;
   right: 0.96rem;
   top: 2rem;
-  display: none;
 }
 @media (min-width: 1000px) {
   .dropdown .nav .dropdown-content {

@@ -35,7 +35,7 @@ UI
 * [x] Marketing landing page scaffolded with common layout structure implemented, mobile first features starting to come into play, lorem ipsum in place of copy as placeholder is set in place.
 
 // Tuesday 
-* [] Marketing site fully responsive to Mobile and Desktop screen widths.
+* [x] Marketing site fully responsive to Mobile and Desktop screen widths.
 * [] Marketing "Sign-in" call to action links user to the Deployed React app login screen.
 
 // Wednesday
