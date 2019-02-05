@@ -15,13 +15,17 @@
     @media @desktop {
         flex-direction: row;
         justify-content: space-evenly;
+    }
 
-        .feature-imgs {
+    .feature-imgs {
+        display: none;
+
+        @media @desktop {
+            display: block;
             img {
                 height: 5em;
                 margin: 1rem 0 1rem 7rem;
             }
-            
         }
     }
 

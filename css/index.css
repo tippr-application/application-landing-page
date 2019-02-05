@@ -412,6 +412,14 @@ table {
     flex-direction: row;
     justify-content: space-evenly;
   }
+}
+.features-board .feature-imgs {
+  display: none;
+}
+@media (min-width: 1000px) {
+  .features-board .feature-imgs {
+    display: block;
+  }
   .features-board .feature-imgs img {
     height: 5em;
     margin: 1rem 0 1rem 7rem;
