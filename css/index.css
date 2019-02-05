@@ -314,12 +314,12 @@ table {
 .cta-main .banner {
   font-family: "Playfair Display", serif;
   text-align: center;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   font-size: 1.8rem;
 }
 @media (min-width: 1000px) {
   .cta-main .banner {
-    margin-top: 5rem;
+    margin: 4rem 0 2rem 0;
     text-align: left;
     font-size: 3.4rem;
   }
@@ -501,8 +501,14 @@ footer p {
   position: absolute;
   display: flex;
   flex-direction: column;
-  right: 0.96rem;
-  top: 2rem;
+  align-items: center;
+  right: 1.9rem;
+  top: 2.3rem;
+  border: 1px solid #F1F1F1;
+  border-radius: 0.2rem;
+  width: 10rem;
+  padding: 0.5rem;
+  background: #F1F1F1;
 }
 @media (min-width: 1000px) {
   .dropdown .nav .dropdown-content {
@@ -510,14 +516,17 @@ footer p {
   }
 }
 .dropdown .nav .dropdown-content .dropdown-link {
-  width: 7.5rem;
-  padding: 2rem 0;
   text-align: center;
   font-size: 1rem;
-  background: #F1F1F1;
+  margin: 1rem 0;
+  border-bottom: none;
+  width: 40%;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   color: #000000;
+}
+.dropdown .nav .dropdown-content .underscore-link {
+  border-bottom: 1px solid black;
 }
 .dropdown .nav .dropdown-hidden {
   display: none;

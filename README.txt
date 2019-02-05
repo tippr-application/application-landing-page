@@ -15,18 +15,18 @@ HTML/CSS
 
 Responsiveness
 * [x] No horizontal scrolling
-* [] Desktop views at 1000px and above
-* [] Tablet views at 800px
-* [] Mobile views at 500px
+* [x] Desktop views at 1000px and above
+* [x] Tablet views at 800px
+* [x] Mobile views at 500px
 
 JS Fundamentals
-* [] Higher order array methods used
-* [] Objects are created
+* [x] Higher order array methods used
+* [x] Objects are created
 * [] No errors in console
 
 Applied JavaScript
-* [] Event listeners used
-* [] Reusable component(s) built (Ex. Accordion with any amount of panels)
+* [x] Event listeners used
+* [x] Reusable component(s) built (Ex. Accordion with any amount of panels)
 
 UI
 * [x] Sign-in button
@@ -36,7 +36,7 @@ UI
 
 // Tuesday 
 * [x] Marketing site fully responsive to Mobile and Desktop screen widths.
-* [] Marketing "Sign-in" call to action links user to the Deployed React app login screen.
+* [x] Marketing "Sign-in" call to action links user to the Deployed React app login screen.
 
 // Wednesday
 * [] Marketing site replace placeholder copy with description of product.

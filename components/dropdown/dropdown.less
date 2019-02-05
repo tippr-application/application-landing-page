@@ -54,8 +54,14 @@
             position: absolute;
             display: flex;
             flex-direction: column;
-            right: 0.96rem;
-            top: 2rem;
+            align-items: center;
+            right: 1.9rem;
+            top: 2.3rem;
+            border: 1px solid @background-gray;
+            border-radius: .2rem;
+            width: 10rem;
+            padding: .5rem;
+            background: @background-gray;
 
             @media @desktop {
                 display: none;
@@ -63,12 +69,16 @@
 
 
             .dropdown-link {
-                width: 7.5rem;
-                padding: 2rem 0;
                 text-align: center;
                 font-size: 1rem;
-                background: @background-gray;
+                margin: 1rem 0;
+                border-bottom: none;
+                width: 40%;
                 .de-link;
+            }
+
+            .underscore-link {
+                border-bottom: 1px solid black;
             }
     
         }
