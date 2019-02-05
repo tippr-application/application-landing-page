@@ -380,20 +380,17 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 33.3%;
   margin: 1em 0;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.1rem;
 }
-.profile-board .profile .profile-placeholder {
-  border-radius: 50rem;
-  width: 7em;
+.profile-board .profile img {
+  border-radius: 50%;
   height: 7em;
-  background: gray;
-  border: 1px solid black;
 }
 .profile-board .profile .name {
-  margin-top: 1rem;
+  margin: 1rem 0 0.5rem 0;
   font-weight: bold;
 }
 .about-masthead {
@@ -405,6 +402,7 @@ table {
 .testimonials-board {
   display: flex;
   flex-direction: column;
+  margin-top: 2rem;
 }
 @media (min-width: 1000px) {
   .testimonials-board {
@@ -417,18 +415,16 @@ table {
   border: 1px dotted black;
   border-radius: 1rem;
   margin: 0.5rem 0;
+  align-items: center;
 }
 @media (min-width: 1000px) {
   .testimonials-board .testimonial {
     width: 60%;
   }
 }
-.testimonials-board .testimonial .profile-placeholder {
-  border-radius: 50rem;
-  width: 48rem;
-  height: 7rem;
-  background: gray;
-  border: 1px solid black;
+.testimonials-board .testimonial img {
+  border-radius: 50%;
+  height: 7em;
 }
 .testimonials-board .testimonial .testimonial-text {
   margin-left: 2rem;

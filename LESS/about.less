@@ -8,6 +8,7 @@
 .testimonials-board {
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
 
     @media @desktop {
         align-items: flex-end;
@@ -19,17 +20,15 @@
         border: 1px dotted black;
         border-radius: 1rem;
         margin: .5rem 0;
+        align-items: center;
 
         @media @desktop {
             width: 60%;
         }
-    
-        .profile-placeholder {
-            border-radius: 50rem;
-            width: 48rem;
-            height: 7rem;
-            background: gray;
-            border: 1px solid black;
+
+        img {
+            border-radius: 50%;
+            height: 7em;
         }
     
         .testimonial-text {
