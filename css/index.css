@@ -134,9 +134,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.header {
+.background.header {
   background-color: #43D9B8;
   height: 8.5%;
+}
+@media (min-width: 1000px) {
+  .background.header {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+  }
+}
+.background.cta {
+  margin-top: 4%;
+}
+.background.about {
+  margin-top: 8%;
+}
+.background-team {
+  margin-top: 8%;
 }
 .middle {
   background-color: white;
