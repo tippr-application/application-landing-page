@@ -407,6 +407,16 @@ table {
   justify-content: space-evenly;
   align-items: center;
 }
+@media (min-width: 1000px) {
+  .features-board {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .features-board .feature-imgs img {
+    height: 5em;
+    margin: 1rem 0 1rem 7rem;
+  }
+}
 .features-board .feature {
   display: flex;
   flex-direction: column;
@@ -425,12 +435,20 @@ table {
   margin: 1rem 0;
   text-align: center;
 }
+@media (min-width: 1000px) {
+  .features-board .feature .feature-text h1 {
+    text-align: left;
+  }
+}
 .features-board .feature .feature-text p {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.5;
 }
 @media (min-width: 1000px) {
   .features-board .feature .text-hidden {
+    display: none;
+  }
+  .features-board .feature .img-hidden {
     display: none;
   }
 }

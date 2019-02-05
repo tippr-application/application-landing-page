@@ -12,6 +12,19 @@
     justify-content: space-evenly;
     align-items: center;
 
+    @media @desktop {
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .feature-imgs {
+            img {
+                height: 5em;
+                margin: 1rem 0 1rem 7rem;
+            }
+            
+        }
+    }
+
     .feature {
         display: flex;
         flex-direction: column;
@@ -27,6 +40,9 @@
                 margin: 1rem 0;
                 text-align: center;
 
+                @media @desktop {
+                    text-align: left;
+                }
             }
 
             p {
@@ -38,6 +54,10 @@
 
         @media @desktop {
             .text-hidden {
+                display: none;
+            }
+
+            .img-hidden {
                 display: none;
             }
         }
