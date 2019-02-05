@@ -364,14 +364,14 @@ table {
   justify-content: center;
   align-items: center;
   width: 50%;
-  margin: 1rem 0;
+  margin: 1em 0;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.1rem;
 }
 .profile-board .profile .profile-placeholder {
   border-radius: 50rem;
-  width: 7rem;
-  height: 7rem;
+  width: 7em;
+  height: 7em;
   background: gray;
   border: 1px solid black;
 }
