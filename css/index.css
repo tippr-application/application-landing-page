@@ -477,6 +477,13 @@ table {
     display: block;
   }
 }
+@media (min-width: 1000px) {
+  .features-board .feature-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .testimonials-board {
   display: flex;
   flex-direction: column;
