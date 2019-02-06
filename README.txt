@@ -22,7 +22,7 @@ Responsiveness
 JS Fundamentals
 * [x] Higher order array methods used
 * [x] Objects are created
-* [] No errors in console
+* [x] No errors in console
 
 Applied JavaScript
 * [x] Event listeners used

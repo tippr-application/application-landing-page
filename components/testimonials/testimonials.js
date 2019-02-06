@@ -8,7 +8,6 @@ class Testimonial {
 
     squeeze() {
         this.element.style.justifyContent = "space-evenly";
-        console.log("TEST")
     }
 
     unsqueeze() {
@@ -16,4 +15,4 @@ class Testimonial {
     }
 }
 
-const testimonials = document.querySelectorAll(".board-row").forEach(element => new Testimonial(element));
+const testimonials = Array.from(document.querySelectorAll(".board-row")).map(element => element).forEach(element => new Testimonial(element));
