@@ -452,6 +452,7 @@ table {
 @media (min-width: 1000px) {
   .features-board .feature-texts .feature .feature-text h1 {
     text-align: left;
+    margin: 0 0 1em 0;
   }
 }
 .features-board .feature-texts .feature .feature-text p {
@@ -466,6 +467,7 @@ table {
 @media (min-width: 1000px) {
   .features-board .feature-texts .feature {
     margin: 0;
+    align-items: flex-start;
   }
   .features-board .feature-texts .feature .text-hidden {
     display: none;
@@ -474,7 +476,8 @@ table {
     display: none;
   }
   .features-board .feature-texts .feature .feature-text-selected {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (min-width: 1000px) {
@@ -482,6 +485,7 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 75%;
   }
 }
 .testimonials-board {
