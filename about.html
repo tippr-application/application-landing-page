@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
-        <script src="./components/dropdown/dropdown.js"></script>
     </head>
 
     <body>
@@ -21,10 +20,10 @@
                         <a class="nav-link" href="team.html">Team</a>
                         <a class ="sign">Sign-In</a>
                         <i class="fas fa-bars"></i>
-                        <div class="dropdown-content">
-                            <a class="dropdown-link" href="">Home</a>
-                            <a class="dropdown-link" href="">About</a>
-                            <a class="dropdown-link" href="">Team</a>
+                        <div class="dropdown-content dropdown-hidden">
+                            <a class="dropdown-link" href="index.html">Home</a>
+                            <a class="dropdown-link" href="about.html">About</a>
+                            <a class="dropdown-link" href="team.html">Team</a>
                         </div>
                     </div>                        
                 </div>    
@@ -34,23 +33,73 @@
 
         
             
-        <div class="background cta">
+        <div class="background about">
             
-            <div class="cta-container">
+            <div class="about-container">
                     <div class="placeholder"></div>
-                    <div class="cta-main">
-                        <h1 class="banner">Your home for tipping</h1>
-                        <h1>Tip</h1>
-                        <p>Server did a good job? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ad omnis error dignissimos a magnam repellat dolorum, consequatur mollitia quae, consectetur blanditiis eveniet excepturi similique, voluptate quis esse quasi dolor.</p>
-                        <button class="give">Give Tip</button>
-                        
-                        <h1>Serving</h1>
-                        <p>Serving at a restaurant. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, totam hic nobis ipsa quis quasi maiores fuga, non ex modi ut earum repellat soluta obcaecati harum. Reprehenderit fuga asperiores voluptas.</p>
-                        <button class="receive">Receive Tips</button>
-
+                    <div class="about-masthead">
+                        <h1 class="banner">Collecting and managing tips shouldn't be difficult. EZ Tip takes care of the dirty work so you don't have to.</h1>
                     </div>
-            </div> <!-- End of CTA Container -->
-        </div><!-- End of CTA Background -->      
+                    
+                    <div class="features-board">
+
+                        <div class="feature-imgs">
+                            <img class="feature-img-selected" src="img/example-logo.png" data-feature="1" alt="">
+                            <img data-feature="2" src="img/example-logo.png" alt="">
+                            <img data-feature="3" src="img/example-logo.png" alt="">
+                        </div>
+                            
+                        <div class="feature-texts">
+                            <div class="feature">
+                                <img class="img-hidden" src="img/example-logo.png" alt="">
+                                <div class="feature-text feature-text-selected" data-feature="1">
+                                    <h1>Benefit from Service</h1>
+                                    <p>Benefit directly from the incredible service you provide, tips received from guests will go straight into your account. Avoid stolen wages, wasted efforts, and a lighter wallet.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature">
+                                <img class="img-hidden" src="img/example-logo.png" alt="">
+                                <div class="feature-text text-hidden" data-feature="2">
+                                    <h1>Manage your Tips</h1>
+                                    <p>Track the number of tips you’ve received and how long you’ve been on the job. Something doesn't add up? Well, it may be time for a change.</p>
+                                </div>
+                            </div>
+
+                            <div class="feature">
+                                <img class="img-hidden" src="img/example-logo.png" alt="">
+                                <div class="feature-text text-hidden" data-feature="3">
+                                    <h1>Establish your Reputation</h1>
+                                    <p>Your guests will come to know you by your incredible smile, strong work ethic, and identifying tagline.</p>
+                                </div>
+                            </div>    
+                        
+                        </div>
+                            
+                            
+                    </div>
+                        
+
+                    <div class="testimonials-board">
+                        <div class="testimonial">
+                            <img src="img/bobby.jpg">
+                            <div class="testimonial-text">
+                                <h1 class="name">Johnny Rocket</h1>
+                                <p>Server did a good job? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ad omnis error dignissimos a magnam repellat dolorum, consequatur mollitia quae, consectetur blanditiis eveniet excepturi similique, voluptate quis esse quasi dolor.</p>   
+                            </div>                                         
+                        </div>
+                        <div class="testimonial">
+                                <img src="img/bobby.jpg">
+                                <div class="testimonial-text">
+                                    <h1 class="name">Johnny Rocket</h1>
+                                    <p>Server did a good job? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ad omnis error dignissimos a magnam repellat dolorum, consequatur mollitia quae, consectetur blanditiis eveniet excepturi similique, voluptate quis esse quasi dolor.</p>   
+                                </div>                                         
+                            </div>
+                        
+                    </div>    
+                    
+            </div> <!-- End of About Container -->
+        </div><!-- End of About Background -->      
 
         <div class="background middle">
             
@@ -68,5 +117,8 @@
         </div> <!-- End Footer Container -->
         
     </footer>
+
+    <script src="./components/dropdown/dropdown.js"></script>
+    <script src="./components/features/features.js"></script>
 
 </html>

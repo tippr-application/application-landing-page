@@ -5,8 +5,7 @@
 
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
-        <script src="./components/dropdown/dropdown.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro|Playfair+Display" rel="stylesheet">
     </head>
 
     <body>
@@ -19,12 +18,12 @@
                         <a class="nav-link" href="index.html">Home</a>
                         <a class="nav-link" href="about.html">About</a>
                         <a class="nav-link" href="team.html">Team</a>
-                        <a class ="sign">Sign-In</a>
+                        <a class="sign" href="https://leigh-ann-eztip.netlify.com" target="_blank">Sign-In</a>
                         <i class="fas fa-bars"></i>
-                        <div class="dropdown-content">
-                            <a class="dropdown-link" href="">Home</a>
-                            <a class="dropdown-link" href="">About</a>
-                            <a class="dropdown-link" href="">Team</a>
+                        <div class="dropdown-content dropdown-hidden">
+                            <a class="dropdown-link" href="index.html">Home</a>
+                            <a class="dropdown-link" href="about.html">About</a>
+                            <a class="dropdown-link" href="team.html">Team</a>
                         </div>
                     </div>                        
                 </div>    
@@ -37,18 +36,26 @@
         <div class="background cta">
             
             <div class="cta-container">
-                    <div class="middle-img">
-                        <img src="img/example-img.jpeg">
-                    </div>
+                    <img class="middle-img" src="img/example-img.jpeg">
+
                     <div class="cta-main">
-                        <h1 class="banner">Your home for tipping</h1>
-                        <h1>Tip</h1>
-                        <p>Server did a good job? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ad omnis error dignissimos a magnam repellat dolorum, consequatur mollitia quae, consectetur blanditiis eveniet excepturi similique, voluptate quis esse quasi dolor.</p>
-                        <button class="give">Give Tip</button>
+                        <h1 class="banner">Your Home for Tipping</h1>
+                        <div class="cta-content">
+                            
+                            <div class="content-container">
+                                <h1>Tip</h1>
+                                <p>Tip your server directly. No need to pull out cash, wait around, or worry that your tip is going to the wrong person.</p>
+                                <button class="give">Give Tip</button>
+                            </div>
+
+                            <div class="content-container">
+                                <h1>Serving</h1>
+                                <p>Manage your tips from your phone or computer. The days of middlemen restaurant managers “losing” your tips are over.</p>
+                                <button class="receive">Receive Tips</button>
+                            </div>
+                                
+                        </div>
                         
-                        <h1>Serving</h1>
-                        <p>Serving at a restaurant. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, totam hic nobis ipsa quis quasi maiores fuga, non ex modi ut earum repellat soluta obcaecati harum. Reprehenderit fuga asperiores voluptas.</p>
-                        <button class="receive">Receive Tips</button>
 
                     </div>
             </div> <!-- End of CTA Container -->
@@ -61,6 +68,7 @@
 
     <footer>
         <div class="footer-container">
+            <img class="apple" src="img/app-store.png">
             <div class="nav-footer">
                     <a class="footer-link" href="index.html">Home</a>
                     <a class="footer-link" href="about.html">About</a>
@@ -70,5 +78,8 @@
         </div> <!-- End Footer Container -->
         
     </footer>
+
+    <script src="./components/dropdown/dropdown.js"></script>
+    <script src="./components/features/features.js"></script>
 
 </html>

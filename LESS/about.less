@@ -1,0 +1,145 @@
+.about-masthead {
+    font-family: @rway;
+    margin: 3rem 0 1rem 0;
+    line-height: 1.2;
+    font-size: 2.2rem;
+}
+
+.features-board {
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    @media @desktop {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .feature-imgs {
+        display: none;
+
+        @media @desktop {
+            margin: 2em;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                height: 5em;
+                margin: 1rem;
+
+            }
+
+            .feature-img-selected {
+                border: 1px solid black;
+                box-shadow: .2em .2em gray;
+            }
+
+            
+        }
+    }
+
+    .feature-texts {
+
+        .feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 2em 0;
+    
+            .feature-text {
+                width: 75%;
+                h1 {
+                    .header-imp;
+                    font-family: @rway;
+                    margin: 1em 0;
+                    text-align: center;
+    
+                    @media @desktop {
+                        text-align: left;
+                        margin: 0 0 1em 0;
+                    }
+                }
+    
+                p {
+                    font-family: @ssp;
+                    line-height: 1.5;
+                }
+    
+                @media @desktop {
+                    display: none;
+                }
+        
+            }
+            @media @desktop {
+                margin: 0;
+                align-items: flex-start;
+                
+                .text-hidden {
+                    display: none;
+                }
+        
+                .img-hidden {
+                    display: none;
+                }
+        
+                .feature-text-selected {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+
+        @media @desktop {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 75%;
+        }
+        
+    }        
+    
+    
+}
+
+.testimonials-board {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+    @media @desktop {
+        align-items: flex-end;
+    }
+
+    .testimonial {
+        display: flex;
+        padding: 2rem;
+        border: 1px dotted black;
+        border-radius: 1rem;
+        margin: .5rem 0;
+        align-items: center;
+
+        @media @desktop {
+            width: 60%;
+        }
+
+        img {
+            border-radius: 50%;
+            height: 7em;
+        }
+    
+        .testimonial-text {
+            margin-left: 2rem;
+            font-family: @ssp;
+
+            .name {
+                font-weight: bold;
+                padding: .5rem 0;
+            }
+        }
+    }
+}
+
+

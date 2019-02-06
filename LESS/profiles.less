@@ -1,0 +1,57 @@
+.team-masthead {
+    .placeholder {
+        height: 15rem;
+        border: 1px dotted black;
+        margin-bottom: 2rem;
+    }
+
+    .banner {
+        font-family: @rway;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.5;
+
+        @media @tablet {
+            font-size: 1.8rem;
+        }
+
+        @media @desktop {
+            font-size: 2rem;
+            padding: 0 1rem;
+        }
+    }
+}
+
+.profile-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+    @media @tablet {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33.3%;
+        margin: 1em 0;
+        font-family: @ssp;
+        font-size: 1.1rem;
+
+        img {
+            border-radius: 50%;
+            height: 7em;
+        }
+
+        .name {
+            margin: 1rem 0 .5rem 0;
+            font-weight: bold;
+        }
+    }
+
+}
