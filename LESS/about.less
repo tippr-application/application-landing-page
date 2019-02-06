@@ -9,64 +9,87 @@
     border: 1px dashed black;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-between;
 
     @media @desktop {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .feature-imgs {
         display: none;
 
         @media @desktop {
-            display: block;
+            margin: 2em;
+            display: flex;
+            flex-direction: column;
+
             img {
                 height: 5em;
-                margin: 1rem 0 1rem 7rem;
+                margin: 1rem;
+
             }
+
+            .feature-img-selected {
+                border: 1px solid black;
+                box-shadow: .2em .2em gray;
+            }
+
+            
         }
     }
 
-    .feature {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 2rem 0;
-
-        .feature-text {
-            width: 75%;
-            h1 {
-                .header-imp;
-                font-family: @rway;
-                margin: 1rem 0;
-                text-align: center;
-
-                @media @desktop {
-                    text-align: left;
-                }
-            }
-
-            p {
-                font-family: @ssp;
-                line-height: 1.5;
-            }
+    .feature-texts {
+        .feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 2em 0;
     
-        }
-
-        @media @desktop {
-            .text-hidden {
-                display: none;
+            .feature-text {
+                width: 75%;
+                h1 {
+                    .header-imp;
+                    font-family: @rway;
+                    margin: 1em 0;
+                    text-align: center;
+    
+                    @media @desktop {
+                        text-align: left;
+                    }
+                }
+    
+                p {
+                    font-family: @ssp;
+                    line-height: 1.5;
+                }
+    
+                @media @desktop {
+                    display: none;
+                    
+                }
+        
             }
-
-            .img-hidden {
-                display: none;
+            @media @desktop {
+                margin: 0;
+                
+                .text-hidden {
+                    display: none;
+                }
+        
+                .img-hidden {
+                    display: none;
+                }
+        
+                .feature-text-selected {
+                    display: block;
+                }
             }
         }
         
-    }
+    }        
     
     
 }
