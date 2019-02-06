@@ -6,15 +6,18 @@
 }
 
 .features-board {
-    border: 1px dashed black;
+    background: @background-gray;
+    border-radius: .3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
     @media @desktop {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
+        min-height: 22em;
+        padding-bottom: 3em;
     }
 
     .feature-imgs {
@@ -23,7 +26,7 @@
         @media @desktop {
             margin: 2em;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
 
             img {
                 height: 5em;
@@ -51,6 +54,7 @@
     
             .feature-text {
                 width: 75%;
+                height: 7em;
                 h1 {
                     .header-imp;
                     font-family: @rway;
@@ -58,7 +62,6 @@
                     text-align: center;
     
                     @media @desktop {
-                        text-align: left;
                         margin: 0 0 1em 0;
                     }
                 }
@@ -75,7 +78,7 @@
             }
             @media @desktop {
                 margin: 0;
-                align-items: flex-start;
+                flex-direction: row;
                 
                 .text-hidden {
                     display: none;
@@ -96,7 +99,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            width: 75%;
+            width: 35rem;
         }
         
     }        
@@ -113,33 +116,57 @@
         align-items: flex-end;
     }
 
-    .testimonial {
-        display: flex;
-        padding: 2rem;
-        border: 1px dotted black;
-        border-radius: 1rem;
-        margin: .5rem 0;
-        align-items: center;
+    .board-row {
 
         @media @desktop {
-            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
 
-        img {
-            border-radius: 50%;
-            height: 7em;
+        .human {
+            display: none;
+
+            @media @desktop {
+                display: block;
+                width: 9em;
+                height: 9em;
+            }
         }
+
+        .testimonial {
+            display: flex;
+            padding: 2rem;
+            border: 1px solid @slate-blue;
+            border-radius: 1rem;
+            margin: .5rem 0;
+            align-items: center;
     
-        .testimonial-text {
-            margin-left: 2rem;
-            font-family: @ssp;
-
-            .name {
-                font-weight: bold;
-                padding: .5rem 0;
+            @media @desktop {
+                width: 60%;
+            }
+    
+            img {
+                border-radius: 50%;
+                height: 7em;
+            }
+        
+            .testimonial-text {
+                margin-left: 2rem;
+                font-family: @ssp;
+    
+                .name {
+                    font-weight: bold;
+                    padding: .5rem 0;
+                }
+    
+                p {
+                    line-height: 1.3;
+                }
             }
         }
     }
+    
 }
 
 

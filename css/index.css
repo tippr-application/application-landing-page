@@ -152,8 +152,10 @@ table {
 .background.about {
   margin-top: 8%;
 }
-.background-team {
-  margin-top: 8%;
+@media (min-width: 1000px) {
+  .background.team {
+    margin-top: 5%;
+  }
 }
 .middle {
   background-color: white;
@@ -273,9 +275,15 @@ table {
 @media (min-width: 1000px) {
   .middle-img {
     order: 1;
-    width: 40%;
-    height: 30rem;
+    width: 23rem;
+    height: 20rem;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
   }
+}
+.middle-img img {
+  width: 23rem;
+  height: 20rem;
 }
 @media (min-width: 1000px) {
   .cta-main .cta-content {
@@ -343,15 +351,17 @@ table {
   }
 }
 .team-masthead .placeholder {
-  height: 15rem;
+  height: 5em;
   border: 1px dotted black;
   margin-bottom: 2rem;
+  background-color: #32325D;
 }
 .team-masthead .banner {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 1.5;
+  margin: 0 0.5em;
 }
 @media (min-width: 800px) {
   .team-masthead .banner {
@@ -401,7 +411,8 @@ table {
   font-size: 2.2rem;
 }
 .features-board {
-  border: 1px dashed black;
+  background: #F1F1F1;
+  border-radius: 0.3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -409,8 +420,10 @@ table {
 }
 @media (min-width: 1000px) {
   .features-board {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    min-height: 22em;
+    padding-bottom: 3em;
   }
 }
 .features-board .feature-imgs {
@@ -420,7 +433,7 @@ table {
   .features-board .feature-imgs {
     margin: 2em;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .features-board .feature-imgs img {
     height: 5em;
@@ -440,6 +453,7 @@ table {
 }
 .features-board .feature-texts .feature .feature-text {
   width: 75%;
+  height: 7em;
 }
 .features-board .feature-texts .feature .feature-text h1 {
   font-weight: bold;
@@ -451,7 +465,6 @@ table {
 }
 @media (min-width: 1000px) {
   .features-board .feature-texts .feature .feature-text h1 {
-    text-align: left;
     margin: 0 0 1em 0;
   }
 }
@@ -467,7 +480,7 @@ table {
 @media (min-width: 1000px) {
   .features-board .feature-texts .feature {
     margin: 0;
-    align-items: flex-start;
+    flex-direction: row;
   }
   .features-board .feature-texts .feature .text-hidden {
     display: none;
@@ -485,7 +498,7 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 75%;
+    width: 35rem;
   }
 }
 .testimonials-board {
@@ -498,30 +511,50 @@ table {
     align-items: flex-end;
   }
 }
-.testimonials-board .testimonial {
+@media (min-width: 1000px) {
+  .testimonials-board .board-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.testimonials-board .board-row .human {
+  display: none;
+}
+@media (min-width: 1000px) {
+  .testimonials-board .board-row .human {
+    display: block;
+    width: 9em;
+    height: 9em;
+  }
+}
+.testimonials-board .board-row .testimonial {
   display: flex;
   padding: 2rem;
-  border: 1px dotted black;
+  border: 1px solid #32325D;
   border-radius: 1rem;
   margin: 0.5rem 0;
   align-items: center;
 }
 @media (min-width: 1000px) {
-  .testimonials-board .testimonial {
+  .testimonials-board .board-row .testimonial {
     width: 60%;
   }
 }
-.testimonials-board .testimonial img {
+.testimonials-board .board-row .testimonial img {
   border-radius: 50%;
   height: 7em;
 }
-.testimonials-board .testimonial .testimonial-text {
+.testimonials-board .board-row .testimonial .testimonial-text {
   margin-left: 2rem;
   font-family: "Source Sans Pro", sans-serif;
 }
-.testimonials-board .testimonial .testimonial-text .name {
+.testimonials-board .board-row .testimonial .testimonial-text .name {
   font-weight: bold;
   padding: 0.5rem 0;
+}
+.testimonials-board .board-row .testimonial .testimonial-text p {
+  line-height: 1.3;
 }
 footer {
   height: 1rem;
