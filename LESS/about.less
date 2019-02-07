@@ -1,12 +1,12 @@
 .about-masthead {
     font-family: @rway;
-    margin: 3rem 0 1rem 0;
+    margin: 3rem .2em;
     line-height: 1.2;
     font-size: 2.2rem;
 }
 
 .features-board {
-    background: @background-gray;
+    border: 1px dotted black;
     border-radius: .3rem;
     display: flex;
     flex-direction: column;
@@ -20,79 +20,106 @@
         padding-bottom: 3em;
     }
 
-    .feature-imgs {
-        display: none;
+    // .feature-imgs {
+    //     display: none;
 
-        @media @desktop {
-            margin: 2em;
-            display: flex;
-            flex-direction: row;
+    //     @media @desktop {
+    //         margin: 2em;
+    //         display: flex;
+    //         flex-direction: row;
 
-            img {
-                height: 5em;
-                margin: 1rem;
+    //         img {
+    //             height: 5em;
+    //             margin: 1rem;
 
-            }
+    //         }
 
-            .feature-img-selected {
-                border: 1px solid black;
-                box-shadow: .2em .2em gray;
-            }
+    //         .feature-img-selected {
+    //             border: 1px solid black;
+    //             box-shadow: .2em .2em gray;
+    //         }
 
             
-        }
-    }
+    //     }
+    // }
 
     .feature-texts {
+
+        @media @tablet {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
         .feature {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
             margin: 2em 0;
-    
-            .feature-text {
-                width: 75%;
-                height: 7em;
-                h1 {
-                    .header-imp;
-                    font-family: @rway;
-                    margin: 1em 0;
-                    text-align: center;
-    
-                    @media @desktop {
-                        margin: 0 0 1em 0;
-                    }
-                }
-    
-                p {
-                    font-family: @ssp;
-                    line-height: 1.5;
-                }
-    
+
+            @media @tablet {
+                width: 80%;
+            }
+
+            @media @desktop {
+                padding: 2em;
+                flex-direction: row;
+                width: 50rem;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .mobile img {
+                width: 8em;
+                height: 8em;
+
                 @media @desktop {
                     display: none;
                 }
-        
             }
-            @media @desktop {
-                margin: 0;
-                flex-direction: row;
+
+            .desktop {
+                display: none;
+
+                @media @desktop {
+                    width: 16em;
+                    height: 16em;
+                    display: block;
+                }
                 
-                .text-hidden {
-                    display: none;
-                }
-        
-                .img-hidden {
-                    display: none;
-                }
-        
-                .feature-text-selected {
-                    display: flex;
-                    flex-direction: column;
+            }
+
+            .benefit {
+                @media @desktop {
+                    width: 17em;
                 }
             }
+
+            .establish {
+                @media @desktop {
+                    width: 23em;
+                }
+            }
+
+            h1 {
+                .header-imp;
+                font-family: @rway;
+                margin: 1em 0;
+
+                @media @desktop {
+                    margin: 1em .7em;
+                }
+            }
+
+            p {
+                font-family: @ssp;
+                line-height: 1.5;
+                margin: 0 0 .5em 0;
+
+                @media @desktop {
+                    margin: 0 .9em;
+                }
+            }
+    
         }
 
         @media @desktop {
@@ -124,15 +151,15 @@
             align-items: center;
         }
 
-        .human {
-            display: none;
+        // .human {
+        //     display: none;
 
-            @media @desktop {
-                display: block;
-                width: 9em;
-                height: 9em;
-            }
-        }
+        //     @media @desktop {
+        //         display: block;
+        //         width: 9em;
+        //         height: 9em;
+        //     }
+        // }
 
         .testimonial {
             display: flex;
@@ -142,9 +169,9 @@
             margin: .5rem 0;
             align-items: center;
     
-            @media @desktop {
-                width: 60%;
-            }
+            // @media @desktop {
+            //     width: 60%;
+            // }
     
             img {
                 border-radius: 50%;
