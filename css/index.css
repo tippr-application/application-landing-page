@@ -257,10 +257,8 @@ table {
   }
 }
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
   font-size: 1.3rem;
-  text-transform: uppercase;
 }
 .sign {
   font-weight: bold;
@@ -282,7 +280,7 @@ table {
   }
 }
 .middle-img img {
-  width: 23rem;
+  width: 24rem;
   height: 20rem;
 }
 @media (min-width: 1000px) {
@@ -338,7 +336,7 @@ table {
   box-shadow: 0.08rem 0.08rem gray;
 }
 .cta-main .banner {
-  font-family: "Playfair Display", serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   margin: 1.5rem 0;
   font-size: 1.8rem;
@@ -348,6 +346,7 @@ table {
     margin: 4rem 0 2rem 0;
     text-align: left;
     font-size: 3.4rem;
+    line-height: 1.1;
   }
 }
 .team-masthead .placeholder {
@@ -406,12 +405,16 @@ table {
 }
 .about-masthead {
   font-family: "Raleway", sans-serif;
-  margin: 3rem 0.2em;
+  margin: 2rem 0.2em;
   line-height: 1.2;
   font-size: 2.2rem;
 }
+@media (min-width: 1000px) {
+  .about-masthead h1 {
+    padding: 1rem 0.1em 0em 0;
+  }
+}
 .features-board {
-  border: 1px dotted black;
   border-radius: 0.3rem;
   display: flex;
   flex-direction: column;
@@ -445,9 +448,10 @@ table {
 }
 @media (min-width: 1000px) {
   .features-board .feature-texts .feature {
+    margin: 1em 0;
     padding: 2em;
     flex-direction: row;
-    width: 50rem;
+    width: 57.5rem;
     align-items: center;
     justify-content: space-between;
   }
@@ -469,6 +473,7 @@ table {
     width: 16em;
     height: 16em;
     display: block;
+    margin: 0 3em;
   }
 }
 @media (min-width: 1000px) {

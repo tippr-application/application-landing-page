@@ -1,12 +1,17 @@
 .about-masthead {
     font-family: @rway;
-    margin: 3rem .2em;
+    margin: 2rem .2em;
     line-height: 1.2;
     font-size: 2.2rem;
+
+    h1 {
+        @media @desktop {
+            padding: 1rem .1em 0em 0;
+        }
+    }
 }
 
 .features-board {
-    border: 1px dotted black;
     border-radius: .3rem;
     display: flex;
     flex-direction: column;
@@ -61,9 +66,10 @@
             }
 
             @media @desktop {
+                margin: 1em 0;
                 padding: 2em;
                 flex-direction: row;
-                width: 50rem;
+                width: 57.5rem;
                 align-items: center;
                 justify-content: space-between;
             }
@@ -84,6 +90,7 @@
                     width: 16em;
                     height: 16em;
                     display: block;
+                    margin: 0 3em;
                 }
                 
             }
