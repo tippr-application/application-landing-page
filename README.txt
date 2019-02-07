@@ -41,3 +41,4 @@ UI
 // Wednesday
 * [x] Marketing site replace placeholder copy with description of product.
 * [x] All marketing site pages fully responsive and built out, may still need to polish up styling and layout.
+
