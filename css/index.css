@@ -152,11 +152,6 @@ table {
 .background.about {
   margin-top: 8%;
 }
-@media (min-width: 1000px) {
-  .background.team {
-    margin-top: 5%;
-  }
-}
 .middle {
   background-color: white;
 }
@@ -240,6 +235,11 @@ table {
   .profiles-container {
     max-width: 880px;
     margin: 0 auto;
+  }
+}
+@media (min-width: 1000px) {
+  .profiles-container {
+    margin-top: 4rem;
   }
 }
 .about-container {
