@@ -280,7 +280,7 @@ table {
   }
 }
 .middle-img img {
-  width: 24rem;
+  width: 25rem;
   height: 20rem;
 }
 @media (min-width: 1000px) {
@@ -405,7 +405,7 @@ table {
 }
 .about-masthead {
   font-family: "Raleway", sans-serif;
-  margin: 2rem 0.2em;
+  margin: 2rem 0;
   line-height: 1.2;
   font-size: 2.2rem;
 }
@@ -451,7 +451,7 @@ table {
     margin: 1em 0;
     padding: 2em;
     flex-direction: row;
-    width: 57.5rem;
+    width: 57.7rem;
     align-items: center;
     justify-content: space-between;
   }
