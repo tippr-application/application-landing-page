@@ -22,7 +22,7 @@ Responsiveness
 JS Fundamentals
 * [x] Higher order array methods used
 * [x] Objects are created
-* [] No errors in console
+* [x] No errors in console
 
 Applied JavaScript
 * [x] Event listeners used
@@ -39,5 +39,5 @@ UI
 * [x] Marketing "Sign-in" call to action links user to the Deployed React app login screen.
 
 // Wednesday
-* [] Marketing site replace placeholder copy with description of product.
-* [] All marketing site pages fully responsive and built out, may still need to polish up styling and layout.
+* [x] Marketing site replace placeholder copy with description of product.
+* [x] All marketing site pages fully responsive and built out, may still need to polish up styling and layout.

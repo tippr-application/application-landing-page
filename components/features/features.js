@@ -27,7 +27,6 @@ class FeatureContent {
     }
 
     select() {
-        console.log("Content Selection!")
         document.querySelectorAll(".feature-text").forEach(e => e.classList.remove("feature-text-selected"));
 
         this.element.classList.add("feature-text-selected");
