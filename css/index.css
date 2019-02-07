@@ -528,9 +528,7 @@ table {
 }
 @media (min-width: 1000px) {
   .testimonials-board .board-row {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    width: 100%;
   }
 }
 .testimonials-board .board-row .testimonial {
