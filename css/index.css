@@ -165,7 +165,7 @@ table {
 }
 @media (min-width: 1000px) {
   .header-container {
-    max-width: 880px;
+    max-width: 980px;
     margin: 0 auto;
   }
 }
@@ -181,7 +181,7 @@ table {
 }
 @media (min-width: 1000px) {
   .cta-container {
-    max-width: 880px;
+    max-width: 980px;
     margin: 0 auto;
   }
 }
@@ -209,7 +209,7 @@ table {
 }
 @media (min-width: 1000px) {
   .footer-container {
-    max-width: 880px;
+    max-width: 980px;
     margin: 0 auto;
   }
 }
@@ -233,7 +233,7 @@ table {
 }
 @media (min-width: 1000px) {
   .profiles-container {
-    max-width: 880px;
+    max-width: 980px;
     margin: 0 auto;
   }
 }
@@ -252,7 +252,7 @@ table {
 }
 @media (min-width: 1000px) {
   .about-container {
-    max-width: 880px;
+    max-width: 980px;
     margin: 0 auto;
   }
 }
@@ -306,6 +306,7 @@ table {
   margin: 1rem 0;
   padding: 0 1.4rem 0 0;
   line-height: 1.5;
+  font-size: 1.2rem;
 }
 .cta-main .cta-content .content-container .give {
   color: black;
@@ -345,7 +346,7 @@ table {
   .cta-main .banner {
     margin: 4rem 0 2rem 0;
     text-align: left;
-    font-size: 3.4rem;
+    font-size: 3.6rem;
     line-height: 1.1;
   }
 }
@@ -451,7 +452,7 @@ table {
     margin: 1em 0;
     padding: 2em;
     flex-direction: row;
-    width: 57.7rem;
+    width: 60.7rem;
     align-items: center;
     justify-content: space-between;
   }
@@ -495,7 +496,7 @@ table {
 }
 @media (min-width: 1000px) {
   .features-board .feature-texts .feature h1 {
-    margin: 1em 0.7em;
+    margin: 1em 0;
   }
 }
 .features-board .feature-texts .feature p {
@@ -505,7 +506,8 @@ table {
 }
 @media (min-width: 1000px) {
   .features-board .feature-texts .feature p {
-    margin: 0 0.9em;
+    margin: 0;
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 1000px) {
