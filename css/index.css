@@ -485,7 +485,6 @@ table {
 }
 @media (min-width: 1000px) {
   .features-board .feature-texts .feature .desktop {
-    width: 16em;
     height: 16em;
     display: block;
   }
