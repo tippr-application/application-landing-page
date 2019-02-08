@@ -1,0 +1,70 @@
+.middle-img {
+    display: flex;
+    justify-content: center;
+    
+    @media @desktop {
+        order: 1;
+        width: 23rem;
+        height: 20rem;
+        margin-top: 3.5rem;
+        margin-left: 1rem;
+    }
+
+    img {
+        width: 25rem;
+        height: 20rem;
+
+    }
+}
+
+.cta-main {
+
+    .cta-content {
+
+        @media @desktop {
+            margin-top: 5rem;
+            display: flex;
+            width: 32rem;
+        }
+
+        .content-container {
+            h1 {
+                font-family: @rway;
+                .header-imp;
+                margin: 1rem 0 .2rem 0;
+            }
+            h2 {
+                font-family: @rway;
+                margin: .2rem 0;
+            }
+            p {
+                font-family: @ssp;
+                margin: 1rem 0;
+                padding: 0 1.4rem 0 0;
+                line-height: 1.5;
+                font-size: 1.2rem;
+            }
+            .give {
+                .custom-btn(black; @mint);
+            }
+            
+            .receive {
+                .custom-btn(black; @white);
+            }
+        }
+    }
+
+    .banner {
+        font-family: @rway;
+        text-align: center;
+        margin: 1.5rem 0;
+        font-size: 1.8rem;
+
+        @media @desktop {
+            margin: 4rem 0 2rem 0;
+            text-align: left;
+            font-size: 3.6rem;
+            line-height: 1.1;
+        }
+    }
+}

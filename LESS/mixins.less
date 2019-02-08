@@ -1,0 +1,45 @@
+.side-rails() {
+    margin: 0 5%;
+
+    @media @tablet {
+        margin: 0 7%;
+    }
+
+    @media @desktop {
+        max-width: 980px;
+        margin: 0 auto;
+    }
+}
+
+.custom-btn(@fontcolor; @backgroundcolor){
+    color: @fontcolor;
+    background-color: @backgroundcolor;
+    cursor: pointer;
+    padding: .7rem 1.3rem;
+    border-radius: .35rem;
+    text-transform: uppercase;
+    font-family: @rway;
+    font-weight: bold;
+    border: 1px solid gray;
+    margin: 10px 0 15px 0;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+    &:hover {
+        box-shadow: .08rem .08rem gray;
+    }
+}
+
+.header-imp() {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.de-link() {
+    text-decoration: none;
+    font-family: @rway;
+    color: @black;
+}

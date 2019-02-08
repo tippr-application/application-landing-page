@@ -1,40 +1,88 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tipease II</title>
+
         <link rel="stylesheet" href="./css/index.css">
-        <script src="./components/dropdown/dropdown.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro|Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
     </head>
 
     <body>
-        <div class="background top">
-            <div class="home container">
-                    <div class="header-container">
-                        <img src="" class="logo" />
-                        <div class="dropdown">
-                            <div class="dropdown-button">Dropdown Button</div>
-                            <div class="dropdown-content dropdown-hidden">
-                                <a class="dropdown-link" href="" target="_blank">Home</a>
-                                <a class="dropdown-link" href="" target="_blank">About</a>
-                                <a class="dropdown-link" href="" target="_blank">Team</a>
-                            </div>
+        <div class="background header">
+
+            <div class="header-container">
+                <div class="dropdown">
+                    <p class="logo">tippr</p>
+                    <div class="nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="team.html">Team</a>
+                        <a class="sign" href="https://nathan-tippr.netlify.com/" target="_blank">Sign-In</a>
+                        <i class="fas fa-bars"></i>
+                        <div class="dropdown-content dropdown-hidden">
+                            <a class="dropdown-link" href="index.html">Home</a>
+                            <a class="dropdown-link" href="about.html">About</a>
+                            <a class="dropdown-link" href="team.html">Team</a>
                         </div>
-                    </div> <!-- End of Header Container -->
-                </div> <!-- End of Home Container -->
-        </div> <!-- End of Background Container -->
+                    </div>                        
+                </div>    
+            </div> <!-- End of Header Container -->
+
+        </div><!-- End of Header Background-->
+
+        
+            
+        <div class="background cta">
+            
+            <div class="cta-container">
+                    <div class="middle-img">
+                        <img src="img/cta.png">
+                    </div>
+
+                    <div class="cta-main">
+                        <h1 class="banner">Your Home for Tipping</h1>
+                        <div class="cta-content">
+                            
+                            <div class="content-container">
+                                <h1>Tip</h1>
+                                <p>Tip your server directly. No need to pull out cash, wait around, or worry that your tip is going to the wrong person.</p>
+                                <a class="give" href="https://nathan-tippr.netlify.com/" target="_blank">Give Tip</a>
+                            </div>
+
+                            <div class="content-container">
+                                <h1>Serving</h1>
+                                <p>Manage your tips from your phone or computer. The days of middlemen restaurant managers “losing” your tips are over.</p>
+                                <a class="receive" href="https://nathan-tippr.netlify.com/" target="_blank">Receive Tips</a>
+                            </div>
+                                
+                        </div>
+                        
+
+                    </div>
+            </div> <!-- End of CTA Container -->
+        </div><!-- End of CTA Background -->      
+
         <div class="background middle">
-            <h1>Something also Good</h1>
-            <img>
-            <h2>A good header related to Something Good</h2>
+            
         </div>
     </body>
 
     <footer>
-        <div class="nav-footer">
-            <a class="footer-link" href="" target="_blank">Home</a>
-            <a class="footer-link" href="" target="_blank">About</a>
-            <a class="footer-link" href="" target="_blank">Team</a>
-        </div>
-        <p class="copyright">Copyright: 2018 Tipease</p>
+        <div class="footer-container">
+            <img class="apple" src="img/app-store.png">
+            <div class="nav-footer">
+                    <a class="footer-link" href="index.html">Home</a>
+                    <a class="footer-link" href="about.html">About</a>
+                    <a class="footer-link" href="team.html">Team</a>
+            </div>
+            <p class="copyright">Copyright: 2018 Tipease</p>
+        </div> <!-- End Footer Container -->
+        
     </footer>
+
+    <script src="./components/dropdown/dropdown.js"></script>
+    <script src="./components/features/features.js"></script>
 
 </html>
