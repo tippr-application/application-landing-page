@@ -1,0 +1,205 @@
+.about-masthead {
+    font-family: @rway;
+    margin: 2rem 0;
+    line-height: 1.2;
+    font-size: 2.2rem;
+
+    h1 {
+        @media @desktop {
+            padding: 1rem .1em 0em 0;
+            text-align: center;
+        }
+    }
+}
+
+.features-board {
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    @media @desktop {
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 22em;
+        padding-bottom: 3em;
+    }
+
+    // .feature-imgs {
+    //     display: none;
+
+    //     @media @desktop {
+    //         margin: 2em;
+    //         display: flex;
+    //         flex-direction: row;
+
+    //         img {
+    //             height: 5em;
+    //             margin: 1rem;
+
+    //         }
+
+    //         .feature-img-selected {
+    //             border: 1px solid black;
+    //             box-shadow: .2em .2em gray;
+    //         }
+
+            
+    //     }
+    // }
+
+    .feature-texts {
+
+        @media @tablet {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .feature {
+            display: flex;
+            flex-direction: column;
+            margin: 2em 0;
+
+            @media @tablet {
+                width: 80%;
+            }
+
+            @media @desktop {
+                margin: 1em 0;
+                padding: 2em;
+                flex-direction: row;
+                width: 60.7rem;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .mobile img {
+                width: 8em;
+                height: 8em;
+
+                @media @desktop {
+                    display: none;
+                }
+            }
+
+            .desktop {
+                display: none;
+
+                @media @desktop {
+                    width: 16em;
+                    height: 16em;
+                    display: block;
+                }
+                
+            }
+
+            .benefit {
+                @media @desktop {
+                    width: 17em;
+                }
+            }
+
+            .establish {
+                @media @desktop {
+                    width: 23em;
+                }
+            }
+
+            h1 {
+                .header-imp;
+                font-family: @rway;
+                margin: 1em 0;
+
+                @media @desktop {
+                    margin: 1em 0;
+                }
+            }
+
+            p {
+                font-family: @ssp;
+                line-height: 1.5;
+                margin: 0 0 .5em 0;
+
+                @media @desktop {
+                    margin: 0;
+                    font-size: 1.2rem;
+                }
+            }
+    
+        }
+
+        @media @desktop {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 35rem;
+        }
+        
+    }        
+    
+    
+}
+
+.testimonials-board {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+    @media @desktop {
+        align-items: flex-end;
+    }
+
+    .board-row {
+
+        @media @desktop {
+            width: 100%;
+        }
+
+        // .human {
+        //     display: none;
+
+        //     @media @desktop {
+        //         display: block;
+        //         width: 9em;
+        //         height: 9em;
+        //     }
+        // }
+
+        .testimonial {
+            display: flex;
+            padding: 2rem;
+            border: 1px solid @slate-blue;
+            border-radius: 1rem;
+            margin: .5rem 0;
+            align-items: center;
+    
+            // @media @desktop {
+            //     width: 60%;
+            // }
+    
+            img {
+                border-radius: 50%;
+                height: 7em;
+            }
+        
+            .testimonial-text {
+                margin-left: 2rem;
+                font-family: @ssp;
+    
+                .name {
+                    font-weight: bold;
+                    padding: .5rem 0;
+                }
+    
+                p {
+                    line-height: 1.3;
+                }
+            }
+        }
+    }
+    
+}
+
+
