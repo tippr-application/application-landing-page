@@ -317,7 +317,12 @@ table {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  margin: 0.6rem 0 1rem 0;
+  border: 1px solid gray;
+  margin: 10px 0 15px 0;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 .cta-main .cta-content .content-container .give:hover {
   box-shadow: 0.08rem 0.08rem gray;
@@ -331,7 +336,12 @@ table {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  margin: 0.6rem 0 1rem 0;
+  border: 1px solid gray;
+  margin: 10px 0 15px 0;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 .cta-main .cta-content .content-container .receive:hover {
   box-shadow: 0.08rem 0.08rem gray;
