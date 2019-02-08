@@ -152,6 +152,9 @@ table {
 .background.about {
   margin-top: 8%;
 }
+.background.team {
+  margin-top: -4px;
+}
 .middle {
   background-color: white;
 }
